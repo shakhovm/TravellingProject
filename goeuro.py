@@ -8,7 +8,7 @@ def get_tickets_json(url, path):
     :param path: str
     :return: None
 
-    Return the json with tickets
+    Create the json with tickets
 
     """
 
