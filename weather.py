@@ -9,7 +9,7 @@ def get_weather_json(place, path):
     :param path: str
     :return: None
 
-    Return the json with weather forecast
+    Create the json with weather forecast
 
     """
     url = "http://api.openweathermap.org/data/2.5/forecast?q=place&APPID=31b1ca6622c183dd92fb23a72f492b36"
@@ -26,6 +26,8 @@ def get_info_from_json(inpath, outpath):
     :param inpath: str
     :param outpath: str
     :return: None
+    
+    Create json-file with filtered forecast
     """
 
     file = open(inpath, encoding='utf-8')
