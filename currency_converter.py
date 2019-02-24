@@ -9,6 +9,9 @@ def convert_currency(cur1, cur2, value):
     :param cur2: str
     :param value: number
     :return: number
+    
+    Convert one currency into another
+    
     """
     url = "https://free.currencyconverterapi.com/api/v6/convert?q=currencies&compact=ultra&apiKey=5cf74c565258dbb237af"
     params = cur1 + '_' + cur2
