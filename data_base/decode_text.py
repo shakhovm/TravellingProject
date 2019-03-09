@@ -1,6 +1,7 @@
-import urllib
 import json
 import pprint
+
+
 def decode(string):
     for char in string:
         char = chr(ord(char))
