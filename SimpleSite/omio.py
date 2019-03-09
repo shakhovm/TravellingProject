@@ -167,5 +167,5 @@ if __name__ == "__main__":
     # print(search_id)
     get_tickets_json("initial_tickets.json", search_id)
     pp = pprint.PrettyPrinter(depth=2)
-    dct = tickets_info("initial_tickets.json", search_id=search_id)
+    dct = tickets_info("initial_tickets.json", search_id=search_id, outpath="final_tickets.json")
 
